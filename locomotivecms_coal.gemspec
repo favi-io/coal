@@ -18,8 +18,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake',       '~> 13.0.1'
 
   spec.add_dependency 'httpclient',             '~> 2.8.3'
-  spec.add_dependency 'faraday',                '~> 0.17'
-  spec.add_dependency 'faraday_middleware',     '~> 0.13.1'
+  spec.add_dependency 'faraday',                '~> 1.10.0'
+  spec.add_dependency 'faraday_middleware',     '~> 1.1.0'
   spec.add_dependency 'activesupport',          '>= 7.0.3'
   spec.add_dependency 'mime-types',             '~> 3.4.1'
 
